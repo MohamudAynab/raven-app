@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 .app {
   font-family: sans-serif;
   display: flex;
@@ -6,7 +10,7 @@
   flex-direction: column;
   gap: 20px;
   height: 100vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Arial;
   background-color: #50b7f5;
 }
 
@@ -20,9 +24,7 @@ input[type="submit"] {
   margin-top: 10px;
   cursor: pointer;
   font-size: 15px;
-  background-color: #e6ecf0;;
-  background-color: #e6ecf0;;
-  background-color: #e6ecf0;;
+  background-color: #e6ecf0;
   padding: 10px 20px;
 }
 
@@ -52,7 +54,7 @@ input[type="submit"]:hover {
 
 .title {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   margin-bottom: 20px;
   background-color: #e6ecf0;
 }
